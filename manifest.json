@@ -1,0 +1,10 @@
+{
+  "id": "onedrive-sync",
+  "name": "OneDrive Sync",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Two-way sync between your Obsidian vault and Microsoft OneDrive Personal using MSAL device code flow.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourname",
+  "isDesktopOnly": false
+}
