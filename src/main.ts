@@ -283,7 +283,7 @@ class AuthModal extends Modal {
             }
           }, 5000);
         } catch (err) {
-          statusEl.setText(`Error: ${err.message}`);
+          statusEl.setText(`Error: ${err.message} | stack: ${err.stack}`);
           btn.setDisabled(false);
         }
       });
